@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNamaTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pemilih" />
+
+    <EditText
+        android:id="@+id/etNikTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK" />
+
+    <RadioGroup
+        android:id="@+id/rgGenderTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbLakiTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki" />
+
+        <RadioButton
+            android:id="@+id/rbPerempuanTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etAlamatTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+
+    <Button
+        android:id="@+id/btnSimpanTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
+</LinearLayout>

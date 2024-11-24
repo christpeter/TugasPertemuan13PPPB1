@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KPU App</string>
+    <string name="simpan">Simpan</string>
+    <string name="kembali">Kembali</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="tambah_data">Tambah Data</string>
+    <string name="detail_data">Detail Data Pemilih</string>
+</resources>
